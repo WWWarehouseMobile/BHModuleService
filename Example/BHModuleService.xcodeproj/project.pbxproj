@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A77198D4B3069C443BC5597 /* libPods-BHModuleService_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CB71ABBAE2F189AE996DBD /* libPods-BHModuleService_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,10 +21,11 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		61FBE239D09FA23F7AAF1A03 /* Pods_BHModuleService_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E48346351B7114B7A5B9EA /* Pods_BHModuleService_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7F7E0CACBDFA2FD74F8EA024 /* Pods_BHModuleService_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7133B1AAC94E75EC451ADB46 /* Pods_BHModuleService_Tests.framework */; };
+		870305FB7F9D82B95702DD5A /* libPods-BHModuleService_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A873E6A6C7155BA4CB1A96 /* libPods-BHModuleService_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		984D0C442211437C005963A5 /* BHAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984D0C432211437C005963A5 /* BHAViewController.m */; };
+		984D0C49221143AE005963A5 /* BHBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984D0C48221143AE005963A5 /* BHBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,7 @@
 /* Begin PBXFileReference section */
 		176C78B60804F4246DB55927 /* Pods-BHModuleService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHModuleService_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BHModuleService_Example/Pods-BHModuleService_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4187522AC649CB9965BA3AD8 /* Pods-BHModuleService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHModuleService_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BHModuleService_Tests/Pods-BHModuleService_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		46E48346351B7114B7A5B9EA /* Pods_BHModuleService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BHModuleService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B707CFE99BBEFD41B31D10C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5B707CFE99BBEFD41B31D10C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BHModuleService_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHModuleService_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +62,19 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		678DB442C56AC9352914307C /* Pods-BHModuleService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHModuleService_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BHModuleService_Tests/Pods-BHModuleService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7133B1AAC94E75EC451ADB46 /* Pods_BHModuleService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BHModuleService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F543EEE77CFD415D4B3C7DF /* Pods-BHModuleService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHModuleService_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BHModuleService_Example/Pods-BHModuleService_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CA5203B8A6D85483EF0A005E /* BHModuleService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BHModuleService.podspec; path = ../BHModuleService.podspec; sourceTree = "<group>"; };
-		DC0FB1D7B69CEB6A133D83EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		984D0C422211437C005963A5 /* BHAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHAViewController.h; sourceTree = "<group>"; };
+		984D0C432211437C005963A5 /* BHAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHAViewController.m; sourceTree = "<group>"; };
+		984D0C47221143AE005963A5 /* BHBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHBViewController.h; sourceTree = "<group>"; };
+		984D0C48221143AE005963A5 /* BHBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHBViewController.m; sourceTree = "<group>"; };
+		984D0C4B221143D5005963A5 /* BHAProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHAProtocol.h; sourceTree = "<group>"; };
+		984D0C4C221143E4005963A5 /* BHBProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHBProtocol.h; sourceTree = "<group>"; };
+		CA5203B8A6D85483EF0A005E /* BHModuleService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BHModuleService.podspec; path = ../BHModuleService.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4CB71ABBAE2F189AE996DBD /* libPods-BHModuleService_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BHModuleService_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0FB1D7B69CEB6A133D83EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E7A873E6A6C7155BA4CB1A96 /* libPods-BHModuleService_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BHModuleService_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +85,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				61FBE239D09FA23F7AAF1A03 /* Pods_BHModuleService_Example.framework in Frameworks */,
+				870305FB7F9D82B95702DD5A /* libPods-BHModuleService_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +96,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7F7E0CACBDFA2FD74F8EA024 /* Pods_BHModuleService_Tests.framework in Frameworks */,
+				2A77198D4B3069C443BC5597 /* libPods-BHModuleService_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +142,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				46E48346351B7114B7A5B9EA /* Pods_BHModuleService_Example.framework */,
-				7133B1AAC94E75EC451ADB46 /* Pods_BHModuleService_Tests.framework */,
+				E7A873E6A6C7155BA4CB1A96 /* libPods-BHModuleService_Example.a */,
+				D4CB71ABBAE2F189AE996DBD /* libPods-BHModuleService_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +156,9 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* BHViewController.h */,
 				6003F5A6195388D20070C39A /* BHViewController.m */,
+				984D0C4A221143C8005963A5 /* Protocol */,
+				984D0C46221143A1005963A5 /* BModule */,
+				984D0C4522114390005963A5 /* AModule */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +205,33 @@
 				5B707CFE99BBEFD41B31D10C /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		984D0C4522114390005963A5 /* AModule */ = {
+			isa = PBXGroup;
+			children = (
+				984D0C422211437C005963A5 /* BHAViewController.h */,
+				984D0C432211437C005963A5 /* BHAViewController.m */,
+			);
+			path = AModule;
+			sourceTree = "<group>";
+		};
+		984D0C46221143A1005963A5 /* BModule */ = {
+			isa = PBXGroup;
+			children = (
+				984D0C47221143AE005963A5 /* BHBViewController.h */,
+				984D0C48221143AE005963A5 /* BHBViewController.m */,
+			);
+			path = BModule;
+			sourceTree = "<group>";
+		};
+		984D0C4A221143C8005963A5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				984D0C4B221143D5005963A5 /* BHAProtocol.h */,
+				984D0C4C221143E4005963A5 /* BHBProtocol.h */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +288,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "汪志刚";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XDK267KQ83;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -321,9 +363,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BHModuleService_Example/Pods-BHModuleService_Example-resources.sh",
+				"${PODS_ROOT}/../../BHModuleService/BHModuleService.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BHModuleService.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -403,6 +448,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984D0C442211437C005963A5 /* BHAViewController.m in Sources */,
+				984D0C49221143AE005963A5 /* BHBViewController.m in Sources */,
 				6003F59E195388D20070C39A /* BHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* BHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -533,12 +580,15 @@
 			baseConfigurationReference = 176C78B60804F4246DB55927 /* Pods-BHModuleService_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XDK267KQ83;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BHModuleService/BHModuleService-Prefix.pch";
 				INFOPLIST_FILE = "BHModuleService/BHModuleService-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Development *";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -548,12 +598,15 @@
 			baseConfigurationReference = 7F543EEE77CFD415D4B3C7DF /* Pods-BHModuleService_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BHModuleService/BHModuleService-Prefix.pch";
 				INFOPLIST_FILE = "BHModuleService/BHModuleService-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
