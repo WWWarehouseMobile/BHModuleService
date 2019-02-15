@@ -28,30 +28,23 @@
 
 #pragma mark-
 #pragma mark- Public Methods
-- (void)registerAllModules {
+- (void)registerLocalModules {
     NSString *plistSubPath = @"BHModuleService.bundle/BHModule";
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:plistSubPath ofType:@"plist"];
     if (!plistPath) {
         return;
     }
     
-    NSArray *ModuleList = [[NSArray alloc] initWithContentsOfFile:plistPath];
-    [self.moduleList addObjectsFromArray:ModuleList];
+    NSArray *moduleList = [[NSArray alloc] initWithContentsOfFile:plistPath];
+    [self registerModulesWithModuleArray:moduleList];
+}
+
+- (void)registerModulesWithModuleArray:(NSArray <NSString *>*)moduleArray {
+    
+    [self.moduleList addObjectsFromArray:moduleArray];
     NSArray *newList = [self.moduleList valueForKeyPath:@"@distinctUnionOfObjects.self"];
     [self.moduleList removeAllObjects];
     [self.moduleList addObjectsFromArray:newList];
-    //    for (NSDictionary *dict in serviceList) {
-    //        NSString *moduleClassStr = [dict objectForKey:@"moduleClass"];
-    //        if (moduleClassStr.length > 0) {
-    //            Class moduleClass = NSClassFromString(moduleClassStr);
-    //#if DEBUG
-    //            NSAssert(moduleClass != nil, @"modlue '%@' should not be nil", moduleClassStr);
-    //#else
-    //            if (!moduleClass) continue;
-    //#endif
-    //            [self registerModule:moduleClass];
-    //        }
-    //    }
 }
 
 - (void)registerModule:(Class)modlue {

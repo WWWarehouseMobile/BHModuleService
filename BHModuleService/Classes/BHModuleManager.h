@@ -24,7 +24,9 @@
  "moduleClass"
  ]
  */
-- (void)registerAllModules;
+- (void)registerLocalModules;
+
+- (void)registerModulesWithModuleArray:(NSArray <NSString *>*)moduleArray;
 
 /**
  注册模块，主要用于处理AppDelegate中的事件
