@@ -1,0 +1,16 @@
+PODS:
+  - BHModuleService (1.0.1)
+
+DEPENDENCIES:
+  - BHModuleService (from `../`)
+
+EXTERNAL SOURCES:
+  BHModuleService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BHModuleService: 5bd6164c829abdf83a9316aa3815a61d13705bb9
+
+PODFILE CHECKSUM: 5ca0bb701afa4b91d892ec5490f953e8758d278c
+
+COCOAPODS: 1.8.4

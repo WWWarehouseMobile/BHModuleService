@@ -12,5 +12,6 @@
 #import "BHServiceManager.h"
 #import "BHModuleManager.h"
 #import "BHModuleAppDelegate.h"
+#import "BHServiceProtocol.h"
 
 #endif /* BHModuleService_h */
