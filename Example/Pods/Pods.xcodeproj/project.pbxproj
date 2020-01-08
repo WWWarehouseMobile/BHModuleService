@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0ED54746DD0EAAE3E82BBEC11C158986 /* Pods-BHModuleService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BA2E9BC14C68B23C9BC0EFEEF81104 /* Pods-BHModuleService_Tests-dummy.m */; };
-		26D783C74D8A0C28ED028BD9D25220C7 /* UIResponder+Eventhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B78C026EDF0FA3A56036737372F5F794 /* UIResponder+Eventhandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2B4909DB0260165ED6D550F69CF44FDA /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F867F2FF9700CE0DD34D6D6ECEB3AC6C /* BHModuleManager.m */; };
-		382EFA453C6D445BF9A1EE4F2CA61BC4 /* BHServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 64881187857177BA3B5AF015687E910D /* BHServiceProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		503D50DA6A638174F0CD3EF479876EC2 /* BHModuleService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C24D923FBB173CE97E2140686DA21395 /* BHModuleService-dummy.m */; };
-		6DC20127F4A83504FB86F7E62008ED67 /* BHModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9F0D4E62A49594612E2F403A433EF7 /* BHModuleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2615F363C9F9125DD197D57DB09C55BC /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A8D4D43C664E15AA0D871C00759E2F /* BHServiceManager.m */; };
+		54903A5A6C739792EA33E6E3E182E70C /* BHModuleService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D70F4CFB05A96B02BE836D2F567B55 /* BHModuleService-dummy.m */; };
+		5F47B6078C9720BEB8EDF48BE364E229 /* BHServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FB400FDFEB181F07738771BE380B5F2F /* BHServiceManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E525116C8FD9DA88BC5062DF456EABA /* BHModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E86EC9F00D51BA203A48640F69E5863D /* BHModuleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C1648E55D03F74F3C58D3A24826D51D /* UIResponder+BHEventhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B2B8EAD7E4ED6F2F6A0784CC654563 /* UIResponder+BHEventhandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7FA3B3C9CDC5676CCD89508E29063300 /* Pods-BHModuleService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A70FC562294E832B18AA286201FD8270 /* Pods-BHModuleService_Example-dummy.m */; };
-		A9627A45CA2BAFB24790D2E64302D73A /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0C04AB66BCB1E28C39832A86BE26EF /* BHServiceManager.m */; };
-		B2BDA12FDD9B1E398D6E5D7706A05396 /* BHServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C130F14C85E50F1A6AE2399591FC083 /* BHServiceManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D5DB715B2F8472127C985BF735004505 /* UIResponder+Eventhandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B9371101B7F7B9C03AA1436027849F15 /* UIResponder+Eventhandler.m */; };
-		EBCEC74703E770F0B59CC1D232ECD5D4 /* BHModuleAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3626AD4C9CB3C4BC046253CB228F59 /* BHModuleAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F366852B2C2CC00D47863E692940CBB2 /* BHModuleService.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD5543A6C5DD54F3D1DCF1CF27871D7 /* BHModuleService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EB7BC1A7598035E735A82542030D544 /* BHServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C3EBFD11718B6CB22311949B1A24E9 /* BHServiceProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A70C42D1EB8D425C3E0FB220EAA3A588 /* BHModuleService.h in Headers */ = {isa = PBXBuildFile; fileRef = 048081AE1E9854EB9FA4F4F314BAAECE /* BHModuleService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF801A2D183E69777E58E76F3846B907 /* UIResponder+BHEventhandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 582FB3AB815F18760848E6142F1A26B5 /* UIResponder+BHEventhandler.m */; };
+		B5395D6F87DA9D5323C2A609C1C721C0 /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9185158219B7A020F019DF40CEC93BB1 /* BHModuleManager.m */; };
+		B96C4A1FC2B150AFC44F2AABE143A95A /* BHModuleAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB56A22B46FD889339CD980845974A6 /* BHModuleAppDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,36 +40,36 @@
 
 /* Begin PBXFileReference section */
 		007AFD197DC13155CD94C579430A9F41 /* libPods-BHModuleService_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BHModuleService_Tests.a"; path = "libPods-BHModuleService_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B3626AD4C9CB3C4BC046253CB228F59 /* BHModuleAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleAppDelegate.h; path = BHModuleService/Classes/BHModuleAppDelegate.h; sourceTree = "<group>"; };
-		1E5313965E9D68B1BD63ECA0B6CC2341 /* BHModuleService.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BHModuleService.bundle; path = BHModuleService/BHModuleService.bundle; sourceTree = "<group>"; };
-		357EBEC479BD3F41B53417813348AA60 /* BHModuleService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BHModuleService.xcconfig; sourceTree = "<group>"; };
+		048081AE1E9854EB9FA4F4F314BAAECE /* BHModuleService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleService.h; path = BHModuleService/Classes/BHModuleService.h; sourceTree = "<group>"; };
+		07B2B8EAD7E4ED6F2F6A0784CC654563 /* UIResponder+BHEventhandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+BHEventhandler.h"; path = "BHModuleService/Classes/UIResponder+BHEventhandler.h"; sourceTree = "<group>"; };
+		33698228530178457D945BB7E602565E /* BHModuleService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BHModuleService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		421252DFA533DCEBA1506E6970DD6BD6 /* BHModuleService.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BHModuleService.bundle; path = BHModuleService/BHModuleService.bundle; sourceTree = "<group>"; };
 		4AA68EFE27842701125809BEBB818DA9 /* Pods-BHModuleService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BHModuleService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4C130F14C85E50F1A6AE2399591FC083 /* BHServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceManager.h; path = BHModuleService/Classes/BHServiceManager.h; sourceTree = "<group>"; };
 		4E55F1B194195EEC67053BE77BC70A82 /* Pods-BHModuleService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHModuleService_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5570062C62879C27945E357E00B0BC35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		58C917D67F0E73643F63BE7EEEA80083 /* BHModuleService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BHModuleService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		64881187857177BA3B5AF015687E910D /* BHServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceProtocol.h; path = BHModuleService/Classes/BHServiceProtocol.h; sourceTree = "<group>"; };
+		54C3EBFD11718B6CB22311949B1A24E9 /* BHServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceProtocol.h; path = BHModuleService/Classes/BHServiceProtocol.h; sourceTree = "<group>"; };
+		563D5B591BE908B0E07F57AEC9A78876 /* BHModuleService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BHModuleService.xcconfig; sourceTree = "<group>"; };
+		582FB3AB815F18760848E6142F1A26B5 /* UIResponder+BHEventhandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+BHEventhandler.m"; path = "BHModuleService/Classes/UIResponder+BHEventhandler.m"; sourceTree = "<group>"; };
+		67FA3CD33E0967987E5184B146C36126 /* BHModuleService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BHModuleService-prefix.pch"; sourceTree = "<group>"; };
 		7438131E457FA3D3530C7771A897F140 /* Pods-BHModuleService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHModuleService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		77E90A5E93E39562BDDA761F54051C3B /* Pods-BHModuleService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BHModuleService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79B06D08B08E3EF52F0268FDEF5964C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		89AD99985836C761F7213FD4FC84A124 /* Pods-BHModuleService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHModuleService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9185158219B7A020F019DF40CEC93BB1 /* BHModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHModuleManager.m; path = BHModuleService/Classes/BHModuleManager.m; sourceTree = "<group>"; };
+		96A8D4D43C664E15AA0D871C00759E2F /* BHServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHServiceManager.m; path = BHModuleService/Classes/BHServiceManager.m; sourceTree = "<group>"; };
 		994C4C574F68D5AD14190CD70BFD4CEE /* Pods-BHModuleService_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BHModuleService_Example-resources.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D70F4CFB05A96B02BE836D2F567B55 /* BHModuleService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BHModuleService-dummy.m"; sourceTree = "<group>"; };
 		A70FC562294E832B18AA286201FD8270 /* Pods-BHModuleService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BHModuleService_Example-dummy.m"; sourceTree = "<group>"; };
-		AE512D09C63B9F1F420AE6B90F59A28B /* BHModuleService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BHModuleService-prefix.pch"; sourceTree = "<group>"; };
-		B78C026EDF0FA3A56036737372F5F794 /* UIResponder+Eventhandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+Eventhandler.h"; path = "BHModuleService/Classes/UIResponder+Eventhandler.h"; sourceTree = "<group>"; };
-		B9371101B7F7B9C03AA1436027849F15 /* UIResponder+Eventhandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+Eventhandler.m"; path = "BHModuleService/Classes/UIResponder+Eventhandler.m"; sourceTree = "<group>"; };
-		BC0C04AB66BCB1E28C39832A86BE26EF /* BHServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHServiceManager.m; path = BHModuleService/Classes/BHServiceManager.m; sourceTree = "<group>"; };
+		BCB56A22B46FD889339CD980845974A6 /* BHModuleAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleAppDelegate.h; path = BHModuleService/Classes/BHModuleAppDelegate.h; sourceTree = "<group>"; };
 		BDDB51816BDB05C9940591F6BE21B35E /* Pods-BHModuleService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BHModuleService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BDDBA28D3774D71E3E6176355D284315 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C24D923FBB173CE97E2140686DA21395 /* BHModuleService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BHModuleService-dummy.m"; sourceTree = "<group>"; };
 		C3D7DEC9A1C6BADD931BFE74C41F3017 /* libBHModuleService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBHModuleService.a; path = libBHModuleService.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C571472E031C5C054D2DD20FA443D8D4 /* Pods-BHModuleService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BHModuleService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CAD5543A6C5DD54F3D1DCF1CF27871D7 /* BHModuleService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleService.h; path = BHModuleService/Classes/BHModuleService.h; sourceTree = "<group>"; };
 		E16F22E63DD0222F78BD4B5FC9D47667 /* Pods-BHModuleService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHModuleService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E6421A64BFA10CA18826334DC14B90A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E86EC9F00D51BA203A48640F69E5863D /* BHModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleManager.h; path = BHModuleService/Classes/BHModuleManager.h; sourceTree = "<group>"; };
 		ECFA18078745B28498AA82836684E9D2 /* libPods-BHModuleService_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BHModuleService_Example.a"; path = "libPods-BHModuleService_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BA2E9BC14C68B23C9BC0EFEEF81104 /* Pods-BHModuleService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BHModuleService_Tests-dummy.m"; sourceTree = "<group>"; };
-		F867F2FF9700CE0DD34D6D6ECEB3AC6C /* BHModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHModuleManager.m; path = BHModuleService/Classes/BHModuleManager.m; sourceTree = "<group>"; };
-		FF9F0D4E62A49594612E2F403A433EF7 /* BHModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleManager.h; path = BHModuleService/Classes/BHModuleManager.h; sourceTree = "<group>"; };
+		FB400FDFEB181F07738771BE380B5F2F /* BHServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceManager.h; path = BHModuleService/Classes/BHServiceManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +97,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05BE6F3C6834528B739F72DA2F0A2E2F /* BHModuleService */ = {
+			isa = PBXGroup;
+			children = (
+				BCB56A22B46FD889339CD980845974A6 /* BHModuleAppDelegate.h */,
+				E86EC9F00D51BA203A48640F69E5863D /* BHModuleManager.h */,
+				9185158219B7A020F019DF40CEC93BB1 /* BHModuleManager.m */,
+				048081AE1E9854EB9FA4F4F314BAAECE /* BHModuleService.h */,
+				FB400FDFEB181F07738771BE380B5F2F /* BHServiceManager.h */,
+				96A8D4D43C664E15AA0D871C00759E2F /* BHServiceManager.m */,
+				54C3EBFD11718B6CB22311949B1A24E9 /* BHServiceProtocol.h */,
+				07B2B8EAD7E4ED6F2F6A0784CC654563 /* UIResponder+BHEventhandler.h */,
+				582FB3AB815F18760848E6142F1A26B5 /* UIResponder+BHEventhandler.m */,
+				E426B0EEBCCBDB5ACE067D28A2B253B9 /* Pod */,
+				1B643A9FA69F6CB2F827E710C4EA2E1C /* Resources */,
+				4D1BF461308A9D1C7B15F873B284E819 /* Support Files */,
+			);
+			name = BHModuleService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		178A762B5A1943D9717BB54A4F310394 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E0778F2C16D993FDD4CAB3A34BA6D945 /* BHModuleService */,
+				05BE6F3C6834528B739F72DA2F0A2E2F /* BHModuleService */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1B643A9FA69F6CB2F827E710C4EA2E1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				421252DFA533DCEBA1506E6970DD6BD6 /* BHModuleService.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		260152A44A40243D73A8BC0A84C6B9C9 /* Pods-BHModuleService_Example */ = {
@@ -119,14 +147,15 @@
 			path = "Target Support Files/Pods-BHModuleService_Example";
 			sourceTree = "<group>";
 		};
-		5FEA1857BC0DCEB68EE634B1C23C2FDC /* Pod */ = {
+		4D1BF461308A9D1C7B15F873B284E819 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				58C917D67F0E73643F63BE7EEEA80083 /* BHModuleService.podspec */,
-				BDDBA28D3774D71E3E6176355D284315 /* LICENSE */,
-				5570062C62879C27945E357E00B0BC35 /* README.md */,
+				563D5B591BE908B0E07F57AEC9A78876 /* BHModuleService.xcconfig */,
+				A0D70F4CFB05A96B02BE836D2F567B55 /* BHModuleService-dummy.m */,
+				67FA3CD33E0967987E5184B146C36126 /* BHModuleService-prefix.pch */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BHModuleService";
 			sourceTree = "<group>";
 		};
 		6CE0A7645040CEA3FB2FD5DC97E02ED4 /* Targets Support Files */ = {
@@ -136,17 +165,6 @@
 				C07B19FF7BB0E257BB2CB14D857207D5 /* Pods-BHModuleService_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7D4D2CCC8C06B12605330C5B8FA7D424 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				357EBEC479BD3F41B53417813348AA60 /* BHModuleService.xcconfig */,
-				C24D923FBB173CE97E2140686DA21395 /* BHModuleService-dummy.m */,
-				AE512D09C63B9F1F420AE6B90F59A28B /* BHModuleService-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BHModuleService";
 			sourceTree = "<group>";
 		};
 		C07B19FF7BB0E257BB2CB14D857207D5 /* Pods-BHModuleService_Tests */ = {
@@ -180,32 +198,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E0778F2C16D993FDD4CAB3A34BA6D945 /* BHModuleService */ = {
+		E426B0EEBCCBDB5ACE067D28A2B253B9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1B3626AD4C9CB3C4BC046253CB228F59 /* BHModuleAppDelegate.h */,
-				FF9F0D4E62A49594612E2F403A433EF7 /* BHModuleManager.h */,
-				F867F2FF9700CE0DD34D6D6ECEB3AC6C /* BHModuleManager.m */,
-				CAD5543A6C5DD54F3D1DCF1CF27871D7 /* BHModuleService.h */,
-				4C130F14C85E50F1A6AE2399591FC083 /* BHServiceManager.h */,
-				BC0C04AB66BCB1E28C39832A86BE26EF /* BHServiceManager.m */,
-				64881187857177BA3B5AF015687E910D /* BHServiceProtocol.h */,
-				B78C026EDF0FA3A56036737372F5F794 /* UIResponder+Eventhandler.h */,
-				B9371101B7F7B9C03AA1436027849F15 /* UIResponder+Eventhandler.m */,
-				5FEA1857BC0DCEB68EE634B1C23C2FDC /* Pod */,
-				EA33B7DFC0A11BAB1215DA855749D622 /* Resources */,
-				7D4D2CCC8C06B12605330C5B8FA7D424 /* Support Files */,
+				33698228530178457D945BB7E602565E /* BHModuleService.podspec */,
+				79B06D08B08E3EF52F0268FDEF5964C2 /* LICENSE */,
+				E6421A64BFA10CA18826334DC14B90A7 /* README.md */,
 			);
-			name = BHModuleService;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		EA33B7DFC0A11BAB1215DA855749D622 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1E5313965E9D68B1BD63ECA0B6CC2341 /* BHModuleService.bundle */,
-			);
-			name = Resources;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		FFD16CD820B600EC8A835F6FE44EFA86 /* Products */ = {
@@ -235,16 +235,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E412D75113C887EBA14BFC64333C81EE /* Headers */ = {
+		DB8FE865432A8F64267A5468A1A6F0C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBCEC74703E770F0B59CC1D232ECD5D4 /* BHModuleAppDelegate.h in Headers */,
-				6DC20127F4A83504FB86F7E62008ED67 /* BHModuleManager.h in Headers */,
-				F366852B2C2CC00D47863E692940CBB2 /* BHModuleService.h in Headers */,
-				B2BDA12FDD9B1E398D6E5D7706A05396 /* BHServiceManager.h in Headers */,
-				382EFA453C6D445BF9A1EE4F2CA61BC4 /* BHServiceProtocol.h in Headers */,
-				26D783C74D8A0C28ED028BD9D25220C7 /* UIResponder+Eventhandler.h in Headers */,
+				B96C4A1FC2B150AFC44F2AABE143A95A /* BHModuleAppDelegate.h in Headers */,
+				6E525116C8FD9DA88BC5062DF456EABA /* BHModuleManager.h in Headers */,
+				A70C42D1EB8D425C3E0FB220EAA3A588 /* BHModuleService.h in Headers */,
+				5F47B6078C9720BEB8EDF48BE364E229 /* BHServiceManager.h in Headers */,
+				9EB7BC1A7598035E735A82542030D544 /* BHServiceProtocol.h in Headers */,
+				7C1648E55D03F74F3C58D3A24826D51D /* UIResponder+BHEventhandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +273,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 836120A3A9565EFCC42F11B1E8F87919 /* Build configuration list for PBXNativeTarget "BHModuleService" */;
 			buildPhases = (
-				E412D75113C887EBA14BFC64333C81EE /* Headers */,
-				DF844B9FC54AEF700E0D89F9C4BE2054 /* Sources */,
+				DB8FE865432A8F64267A5468A1A6F0C1 /* Headers */,
+				AEF200FF3CFEDFD33DC84B53CE3904D2 /* Sources */,
 				F114B08505F280B868C5D9866A846CF4 /* Frameworks */,
 			);
 			buildRules = (
@@ -350,14 +350,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF844B9FC54AEF700E0D89F9C4BE2054 /* Sources */ = {
+		AEF200FF3CFEDFD33DC84B53CE3904D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B4909DB0260165ED6D550F69CF44FDA /* BHModuleManager.m in Sources */,
-				503D50DA6A638174F0CD3EF479876EC2 /* BHModuleService-dummy.m in Sources */,
-				A9627A45CA2BAFB24790D2E64302D73A /* BHServiceManager.m in Sources */,
-				D5DB715B2F8472127C985BF735004505 /* UIResponder+Eventhandler.m in Sources */,
+				B5395D6F87DA9D5323C2A609C1C721C0 /* BHModuleManager.m in Sources */,
+				54903A5A6C739792EA33E6E3E182E70C /* BHModuleService-dummy.m in Sources */,
+				2615F363C9F9125DD197D57DB09C55BC /* BHServiceManager.m in Sources */,
+				AF801A2D183E69777E58E76F3846B907 /* UIResponder+BHEventhandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +381,7 @@
 /* Begin XCBuildConfiguration section */
 		2718C4478F450D6627B272E2E4A49BFA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 357EBEC479BD3F41B53417813348AA60 /* BHModuleService.xcconfig */;
+			baseConfigurationReference = 563D5B591BE908B0E07F57AEC9A78876 /* BHModuleService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -592,7 +592,7 @@
 		};
 		AE5F41D5E5B46DFC4B6BE3DC11F56670 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 357EBEC479BD3F41B53417813348AA60 /* BHModuleService.xcconfig */;
+			baseConfigurationReference = 563D5B591BE908B0E07F57AEC9A78876 /* BHModuleService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

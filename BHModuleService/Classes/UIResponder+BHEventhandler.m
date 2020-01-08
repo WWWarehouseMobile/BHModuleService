@@ -1,21 +1,21 @@
 //
-//  UIResponder+Eventhandler.m
+//  UIResponder+BHEventhandler.m
 //  BHModuleService
 //
 //  Created by 汪志刚 on 2019/01/29.
 //  Copyright © 2019年 浙江网仓科技有限公司. All rights reserved.
 //
 
-#import "UIResponder+Eventhandler.h"
+#import "UIResponder+BHEventhandler.h"
 #import "BHModuleManager.h"
 
 @interface UIResponder ()<UIApplicationDelegate>
 
 @end
 
-@implementation UIResponder (Eventhandler)
+@implementation UIResponder (BHEventhandler)
 
-- (void)sa_appDidFinishLaunchingWithOptions:(NSDictionary *)options {
+- (void)bh_appDidFinishLaunchingWithOptions:(NSDictionary *)options {
     [[BHModuleManager sharedInstance] trigger_applicationDidFinishLaunchingWithOptions:options];
 }
 

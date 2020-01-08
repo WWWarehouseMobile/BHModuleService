@@ -1,5 +1,5 @@
 //
-//  UIResponder+Eventhandler.h
+//  UIResponder+BHEventhandler.h
 //  BHModuleService
 //
 //  Created by 汪志刚 on 2019/01/29.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIResponder (Eventhandler)
+@interface UIResponder (BHEventhandler)
 
-- (void)sa_appDidFinishLaunchingWithOptions:(NSDictionary *)options;
+- (void)bh_appDidFinishLaunchingWithOptions:(NSDictionary *)options;
 
 @end
