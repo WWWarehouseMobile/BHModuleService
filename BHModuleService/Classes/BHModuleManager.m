@@ -121,7 +121,7 @@
     return flag;
 }
 
-- (BOOL)trigger_applicationOpenURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
+- (BOOL)trigger_applicationOpenURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
     __block BOOL flag = NO;
     [self.moduleList enumerateObjectsUsingBlock:^(NSString  *_Nonnull objStr, NSUInteger idx, BOOL * _Nonnull stop) {
         Class obj = NSClassFromString(objStr);

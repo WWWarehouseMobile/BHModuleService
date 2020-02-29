@@ -52,7 +52,7 @@
     return [[BHModuleManager sharedInstance] trigger_applicationOpenURL:url sourceApplication:sourceApplication annotation:annotation];
 }
 
-- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
     return [[BHModuleManager sharedInstance] trigger_applicationOpenURL:url options:options];
 }
 

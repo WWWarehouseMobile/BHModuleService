@@ -64,9 +64,9 @@
  */
 + (BOOL)bh_applicationOpenURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation;
 
-#if __IPHONE_OS_VERSION_MAX_ALLOWED > 80400
-+ (BOOL)bh_applicationOpenURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options;
-#endif
+//#if __IPHONE_OS_VERSION_MAX_ALLOWED > 80400
++ (BOOL)bh_applicationOpenURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options;
+//#endif
 
 /**
  收到远程推送
